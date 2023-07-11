@@ -1,3 +1,210 @@
 *{
-    background-color: rgb(163, 137, 137);
+    margin:0 ;
+    font-family:var(--font-ui)
+    
+}
+
+:root{
+    --height: 66px;
+    --buttonColor: #f05123;
+    --font-ui: 'Segoe UI';
+}
+body{
+  overflow-x: hidden;
+    
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    /* margin:0; */
+    padding:0;
+}
+.d-flex{
+    display: flex;
+}
+.d-flex-j{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app_header{
+    background-color: #fff;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1px solid #e8ebed;
+   height: var(--height);
+}
+.banner{
+    margin-top:10px;
+   margin-left: 10px;
+}
+.banner img{
+    border-radius: 20px;
+}
+.searchInput{
+    border: 2px solid #e8e8e8;
+    height: 40px;
+    position: relative;
+    border-radius: 20px;
+    width: 420px;
+}
+.searchInput input{
+    border: none;
+    width: 90%;
+    border-radius: 20px;
+
+    height: 100%;
+    outline: none;
+    padding: 0 10px;
+}
+.searchInput span{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.header_logo img{
+   margin-right: 15px;
+   margin-left: 30px;
+}
+.header_action{
+    margin-right: 30px;
+}
+.header_action__loginBtn{
+    background-color: var(--buttonColor);
+    border-radius: 999px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: var(--font-ui);
+    font-weight: 600;
+    padding: 9px 20px;
+    
+}
+.app_body{
+   width: 100%;
+   /* background-color: rebeccapurple; */
+}
+.app_sidebarWrap{
+    width: 5%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.app_withSidebarContent{
+    width: 95%;
+    
+}
+.material-symbols-outlined {
+    font-size: 28px !important;
+}
+.createButton{
+    align-items: center;
+   
+    border-color: #1473e6;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    margin: 8px 0 2px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 44px;
+    
+}
+.homeWrapper{
+    padding-left: 50px;
+    margin-top:50px;
+}
+.sidebar_list li a {
+    align-items: center;
+    
+    
+    color: #404040;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 72px;
+    justify-content: center;
+    margin-top: 4px;
+    width: 72px;
+
+}
+.sidebar_list li{
+    padding-bottom:15px;
+    padding:10px;
+    
+    border-radius: 16px;
+}
+
+.sidebar_list li:hover{
+    background-color: #e8ebed;
+    z-index: 1;
+}
+.createButton{
+    margin-bottom: 10px;
+}
+.createBtn{
+    color:#1473e6;
+    font-size: 40px !important;
+
+}
+.sidebar_icon__sub{
+    font-size: 14px;
+    font-weight: 500;
+}
+.item{
+    overflow: unset;
+    position: relative;
+    width: 25%;
+}
+.item_link{
+   
+
+}
+
+.item_button{
+    position: absolute;
+    left: 50%;
+    top:40%;
+    background-color: black;
+    transform: translate(-50%,-50%);
+    transition: all .3s ease 0s;
+    opacity: 0;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.item_img{
+   border-radius: 20px;
+}
+.item > h3{
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    color: #292929;
+    display: -webkit-box;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    overflow: hidden;
+    font-weight: 300;
+
+}
+.item_img::after{
+   
+} 
+.studentCourse_count{
+    align-items: center;
+
+}
+.scrollList_heading h1{
+    font-size: 24px;
+    margin: 15px 0px 15px 0px;
 }
