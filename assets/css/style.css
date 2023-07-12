@@ -1,0 +1,82 @@
+*{
+    margin:0 ;
+    font-family:var(--font-ui)
+    
+}
+
+:root{
+    --height: 66px;
+    --buttonColor: #f05123;
+    --font-ui: 'Segoe UI';
+}
+body{
+  overflow-x: hidden;
+    
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    /* margin:0; */
+    padding:0;
+}
+
+
+.d-flex{
+    display: flex;
+}
+.d-flex-j{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app_header{
+    background-color: #fff;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1px solid #e8ebed;
+   height: var(--height);
+}
+.searchInput{
+    border: 2px solid #e8e8e8;
+    height: 40px;
+    position: relative;
+    border-radius: 20px;
+    width: 420px;
+}
+.searchInput input{
+    border: none;
+    width: 90%;
+    border-radius: 20px;
+
+    height: 100%;
+    outline: none;
+    padding: 0 10px;
+}
+.searchInput span{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.header_logo img{
+   margin-right: 15px;
+   margin-left: 30px;
+}
+.header_action{
+    margin-right: 30px;
+}
+.header_action__loginBtn{
+    background-color: var(--buttonColor);
+    border-radius: 999px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: var(--font-ui);
+    font-weight: 600;
+    padding: 9px 20px;
+    
+}
