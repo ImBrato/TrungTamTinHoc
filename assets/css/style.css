@@ -8,12 +8,24 @@
     --height: 66px;
     --buttonColor: #f05123;
     --font-ui: 'Segoe UI';
+    --primary-color: #f05123;
+    --black-color: #000;
+    --white-color: #fff;
+    --gray-color: #666;
+    --text-color: #333;
+    --plum-color: #b80257;
+    --fb-color: #4080ff;
+    --mail-color: #f47425;
+    --invalid-color: #f33a58;
+    --desc-color: #0000008a;
+    --first-color: #1dbfaf;
+    --second-color: #1dbfaf;
+    --button-color: #1dbfaf;
 }
 body{
   overflow-x: hidden;
     
 }
-
 a{
     text-decoration: none;
 }
@@ -79,4 +91,187 @@ ul{
     font-weight: 600;
     padding: 9px 20px;
     
+}
+.app_sidebarWrap{
+    width: 6%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.createButton{
+    align-items: center;
+   position: relative;
+    border-color: #1473e6;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    margin: 8px 0 2px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 44px;
+    
+}
+/* .createButton:hover .add_newBlog__link{
+    display: flex;
+} */
+.add_newBlog__link{
+    position: absolute;
+    top: 120%;
+    left: 10%;
+    width: 150px;
+    
+    border-radius: 12px;
+    border: none;
+    color: #444;
+    cursor: pointer;
+
+    font-size: 15px;
+    padding: 12px 20px 12px 0px;
+    transition: .3s;
+    background-color: var(--white-color);
+    font-weight: 400;
+    box-shadow: 0 -4px 32px rgba(0,0,0,.2);
+    display: none;
+    justify-content: center;
+   
+    align-items: center;
+}
+.add_newBlog__link span{
+    margin-right: 10px;
+}
+.sidebar_list li a {
+    align-items: center;
+    
+    
+    color: #404040;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 72px;
+    justify-content: center;
+    margin-top: 4px;
+    width: 72px;
+
+}
+.sidebar_list li{
+    padding-bottom:15px;
+    padding:10px;
+    
+    border-radius: 16px;
+}
+
+.sidebar_list li:hover{
+    background-color: #e8ebed;
+    z-index: 1;
+}
+.createButton{
+    margin-bottom: 10px;
+}
+.createBtn{
+    color:#1473e6;
+    font-size: 45px !important;
+
+}
+.sidebar_icon__sub{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.scrollList_body{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.item{
+    overflow: unset;
+    position: relative;
+    width: 25%;
+    margin-bottom:50px;
+  
+}
+.item_link{
+   
+    /* margin-right: 30px; */
+   
+}
+.item:hover .item_button{
+    display: block;
+    
+}
+.item_button{
+    position: absolute;
+    left: 50%;
+    display:  none;
+    top:40%;
+    /* background-color: black; */
+    transform: translate(-50%,-50%);
+    transition: all 0.5s ease 0s;
+    /* opacity: 0.5; */
+    z-index: 1;
+    cursor: pointer;
+    padding:12px;
+    border-radius: 999px;
+    outline: none ;
+    border: 1px solid rgb(37, 37, 37);
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 1.15;
+    margin: 0;
+    font-weight: 550;
+    /* visibility: hidden; */
+}
+
+.img_wrapper{
+   border-radius: 20px;
+   width: 90%;
+   position: relative;
+}
+.item_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 15px;
+}
+.item > h3{
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    color: #292929;
+    display: -webkit-box;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    overflow: hidden;
+    font-weight: 630;
+    margin-bottom:3px;
+    margin-top:5px;
+    
+}
+
+.studentCourse_count{
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+}
+.scrollList_heading h1{
+    font-size: 26px;
+    font-weight: 800;
+    margin: 15px 0px 15px 0px;
+}
+.scrollList_label{
+    background-color: #1473e6;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 6px;
+    position: relative;
+    right: -11px;
+    text-transform: uppercase;
+    top: 13px;
+    height: 20px;
+
 }

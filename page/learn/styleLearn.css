@@ -1,0 +1,17 @@
+.app_withSidebarContent {
+    flex: 1;
+    margin-bottom: 60px;
+    padding: 8px 44px 0;
+  }
+
+  .app_withSidebarContent h1{
+    margin-bottom: 20px;
+  }
+  .defaultLayout_container-top {
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+
+  .new_course__body{
+    flex-wrap: wrap;
+  }

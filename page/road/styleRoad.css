@@ -1,0 +1,120 @@
+
+:root{
+    --primary-color: #f05123;
+    --white-color: #fff;
+}
+.app_withSidebarContent {
+    flex: 1;
+    margin-bottom: 60px;
+    padding: 8px 44px 0;
+  }
+  .app_withSidebarContent h1{
+    margin-bottom: 20px;
+  }
+.defaultLayout_container-top {
+    margin-top: 20px;
+    margin-bottom: 80px;
+  }
+  .learningList_content{
+    display: flex;
+    margin-top: 24px;
+
+  }
+  .learningItem_wrapper{
+    border: 2px solid #e8e8e8;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    width: 500px;
+    margin-right: 30px;
+  }
+  .learningItem_wrapper_body{
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .learningItem_wrapper_info{
+    flex: 1 1;
+  }
+  .learningItem_wrapper_thumb{
+    align-items: center;
+    display: flex;
+    padding-left: 24px;
+  }
+  .learningItem_wrapper_thumb a {
+    align-items: center;
+    border: 5px solid var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    height: 122px;
+    justify-content: center;
+    overflow: hidden;
+    width: 122px;
+  }
+  .learningItem_wrapper_thumb a img {
+    border-radius: 50%;
+    height: 98px;
+    object-fit: cover;
+    width: 98px;
+  }
+  .learningItem_wrapper_decs{
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .learningItem_wrapper_title a {
+    color: #242424;
+    display: block;
+    font-size:24px;
+    font-weight: 900;
+    padding-bottom: 14px;
+  }
+  .learningItem_wrapper_cta {
+
+    display: flex;
+  }
+  .button_btn{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding:10px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 40px;
+  }
+  .sugeestion_wrapper{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    overflow: hidden;
+  }
+  .sugesstion_info{
+    width: 400px;
+  }
+  .sugesstion_info h2{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1.6;
+  }
+  .sugesstion_info p{
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .sugesstion_info a {
+    border: 2px solid #292929;
+    border-radius: 999px;
+    color: #292929;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 8px;
+    padding: 10px 16px;
+    text-align: center;
+    transition: .2s ease;
+  }
+  .sugesstion_img img{
+    /* position: relative;
+    right: -44px; */
+    width: 440px;
+  }

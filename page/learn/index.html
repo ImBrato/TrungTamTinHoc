@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tin học văn học</title>
+    <link rel="icon" href="/assets/img/logo.png">
     <!-- style chung -->
-    <link rel="stylesheet" href="/assets/css/style.css"> 
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <link rel="stylesheet" href="./styleLearn.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+
 </head>
+
 <body>
-    learn
     <div class="app_header d-flex" id="header">
         <div class="header_logo d-flex-j"><a href="/"><img src="/assets/img/logo.png" width="40px" alt="Codeheroes"></a>
             <h4 class="header_logo__heading">Nơi học tin học hàng đầu Việt Nam</h4>
@@ -30,5 +35,102 @@
         </div>
     </div>
 
+
+    <div class="app_body d-flex">
+        <div class="app_sidebarWrap d-flex">
+
+            <div class="createButton">
+                <span class=" createBtn material-symbols-outlined">
+                    add_circle
+                </span>
+            </div>
+            <ul class="sidebar_list">
+                <li>
+                    <a href="../home/index.html">
+
+                        <span class="material-symbols-outlined">
+                            home
+                        </span>
+                        <span class="sidebar_icon__sub">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../road/index.html">
+                        <span class="material-symbols-outlined">
+                            stylus_laser_pointer
+                        </span>
+                        <spa class="sidebar_icon__sub">Lộ trình</spa>
+                    </a>
+                </li>
+                <li>
+                    <a href="../learn/index.html">
+                        <span class="material-symbols-outlined">
+                            lightbulb
+                        </span>
+                        <spa class="sidebar_icon__sub">Học</spa>
+                    </a>
+                </li>
+                <li>
+                    <a href="../blog/index.html" onclick="resetURL()">
+                        <span class="material-symbols-outlined">
+                            breaking_news
+                        </span>
+                        <span class="sidebar_icon__sub">Blog</span>
+                    </a>
+                </li>
+            </ul>
+
+
+        </div>
+        <div class="app_withSidebarContent">
+            <div class="defaultLayout_container-top">
+                <h1>Bài viết nổi bật </h1>
+                <p>Tổng hợp các bài viết chia sẻ về kinh nghiệm tự học lập trình online và các kỹ thuật lập trình </p>
+            </div>
+            <div class="container_body">
+                <div class="homeWrapper">
+                    <div class="scrollList">
+                        
+                        <div class="new_course__wrapper">
+                            <div class="scrollList_heading d-flex">
+                                <h1>Khóa học phổ biến</h1>
+                                <span class="scrollList_label">
+                                    Hot
+                                </span>
+                            </div>
+                            <div class="new_course__body d-flex"></div>
+                        </div>
+                        
+                        <div class="it_course__wrapper">
+                            <div class="scrollList_heading d-flex">
+                                <h1>Khóa học lập trình</h1>
+                                <span class="scrollList_label">
+                                    Mới
+                                </span>
+                            </div>
+                            <div class="it_course__body">
+
+                            </div>
+                        </div>
+                        <div class="office_course__wrapper">
+
+                        </div>
+
+
+                        <div class="scrollList_heading d-flex">
+                            <h1>Lập trình cơ bản</h1>
+                            <span class="scrollList_label">
+                                Mới
+                            </span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
 </body>
+
 </html>

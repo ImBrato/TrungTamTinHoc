@@ -37,122 +37,17 @@ ul{
    width: 100%;
    /* background-color: rebeccapurple; */
 }
-.app_sidebarWrap{
-    width: 5%;
-    flex-direction: column;
-    align-items: center;
-    
-}
+
 .app_withSidebarContent{
-    width: 95%;
+    width: 94%;
     
 }
-.material-symbols-outlined {
+/* .material-symbols-outlined {
     font-size: 28px !important;
-}
-.createButton{
-    align-items: center;
-   
-    border-color: #1473e6;
-    border-radius: 50%;
-    color: #fff;
-    cursor: pointer;
-    display: flex;
-    height: 44px;
-    justify-content: center;
-    margin: 8px 0 2px;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    width: 44px;
-    
-}
+} */
+
 .homeWrapper{
     padding-left: 50px;
     margin-top:50px;
 }
-.sidebar_list li a {
-    align-items: center;
-    
-    
-    color: #404040;
-    cursor: pointer;
-    display: flex;
-    flex-direction: column;
-    height: 72px;
-    justify-content: center;
-    margin-top: 4px;
-    width: 72px;
 
-}
-.sidebar_list li{
-    padding-bottom:15px;
-    padding:10px;
-    
-    border-radius: 16px;
-}
-
-.sidebar_list li:hover{
-    background-color: #e8ebed;
-    z-index: 1;
-}
-.createButton{
-    margin-bottom: 10px;
-}
-.createBtn{
-    color:#1473e6;
-    font-size: 40px !important;
-
-}
-.sidebar_icon__sub{
-    font-size: 14px;
-    font-weight: 500;
-}
-.item{
-    overflow: unset;
-    position: relative;
-    width: 25%;
-}
-.item_link{
-   
-
-}
-
-.item_button{
-    position: absolute;
-    left: 50%;
-    top:40%;
-    background-color: black;
-    transform: translate(-50%,-50%);
-    transition: all .3s ease 0s;
-    opacity: 0;
-    z-index: 1;
-    visibility: hidden;
-}
-
-.item_img{
-   border-radius: 20px;
-}
-.item > h3{
-    word-wrap: break-word;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 1;
-    color: #292929;
-    display: -webkit-box;
-    font-size: 1.1rem;
-    line-height: 1.4;
-    overflow: hidden;
-    font-weight: 300;
-
-}
-.item_img::after{
-   
-} 
-.studentCourse_count{
-    align-items: center;
-
-}
-.scrollList_heading h1{
-    font-size: 24px;
-    margin: 15px 0px 15px 0px;
-}
