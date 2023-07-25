@@ -1,3 +1,22 @@
+
+:root{
+  --height: 66px;
+  --buttonColor: #f05123;
+  --font-ui: 'Segoe UI';
+  --primary-color: #f05123;
+  --black-color: #000;
+  --white-color: #fff;
+  --gray-color: #666;
+  --text-color: #333;
+  --plum-color: #b80257;
+  --fb-color: #4080ff;
+  --mail-color: #f47425;
+  --invalid-color: #f33a58;
+  --desc-color: #0000008a;
+  --first-color: #1dbfaf;
+  --second-color: #1dbfaf;
+  --button-color: #1dbfaf;
+}
 .app_withSidebarContent {
     flex: 1;
     margin-bottom: 60px;
@@ -172,4 +191,63 @@ margin-top:40px;
   .banners_banner img{
     margin-bottom:20px;
     border-radius: 8px;
+  }
+  .inputCreateBlog__header{
+    font-size: 27px;
+    font-weight: 600;
+  }
+  .inputCreateBlog__body{
+    font-size: 20px;
+  }
+  .inputCreateBlog{
+    width: 80%;
+    padding:10px;
+    outline: none;
+    border: none;
+  
+  }
+  .postItem_info{
+    width: 100%;
+    
+  }
+  .inputCreateBlog::before{
+    content: "12132";
+  }
+
+  .postItem_action{
+    display: flex;
+    justify-content: flex-end;
+
+  }
+  .submit_action{
+    padding:7px 25px 7px 25px;
+    background-color: #198754;
+    border:none;
+    border-radius: 5px;
+    font-size: 16px;
+    color:var(--white-color);
+    font-weight:400;
+    cursor: pointer;
+  }
+  .postItem_body-wrapper{
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .postItem_icon{
+    display: flex;
+    margin-bottom:10px;
+  }
+  .icon{
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .icon > span{
+    font-size: 16px !important;
+    opacity: 0.9;
+  }
+  .defaultLayout_container__createNewBlog{
+    margin-top:40px;
+  }
+  .postItem_author h1{
+    font-size: 20px;
   }
