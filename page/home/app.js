@@ -36,8 +36,10 @@ const app = {
         createBtn.onclick = () => {
           addNewCourse.style.display = addNewCourse.style.display === "none" ? "flex" : "none";
         }
+       addNewCourse.onclick = () => {
+        addNewCourse.style.display = addNewCourse.style.display === "flex"? "none" : "flex";
        
-        
+    }
       },
     render() {
        
