@@ -4,6 +4,8 @@ const $$ = document.querySelectorAll.bind(document)
 const createBtn = $('.createButton');
 const addNewCourse = $('.add_newBlog__link')
 
+
+
 const app = {
     course: [
         {
@@ -34,8 +36,11 @@ const app = {
         createBtn.onclick = () => {
           addNewCourse.style.display = addNewCourse.style.display === "none" ? "flex" : "none";
         }
+       
+        
       },
     render() {
+       
         const htmls = this.course.map(c => {
             return `
             <section class="item">
@@ -59,11 +64,17 @@ const app = {
         </section>
         `
         })
-        $('.scrollList_body').innerHTML += htmls.join('');
+        $('.scrollList_body').innerHtml += htmls.join('');
+        
     },
     start() {
         app.handleEvent();
         app.render();
+        
     }
+
+
 }
 app.start();
+
+
