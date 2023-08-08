@@ -92,6 +92,11 @@ const app = {
             </div>
                 `
             $('.index_module-col__left').innerHTML += htmls
+            var x = document.getElementById("snackbar");
+            x.className = "show";
+
+            // After 3 seconds, remove the show class from DIV
+            setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
         }
       },
     render() {

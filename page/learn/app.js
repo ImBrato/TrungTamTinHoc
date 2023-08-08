@@ -35,10 +35,7 @@ const htmls = course.map(c => {
         <img class="item_img"
         src="${c.img}"
         >
-
-                                </div>
-      
-           
+                                </div>    
         </a>
         <h3>${c.title}</h3>
         <div class="studentCourse_count d-flex">

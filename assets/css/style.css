@@ -191,26 +191,29 @@ ul{
     position: relative;
     width: 25%;
     margin-bottom:50px;
+    transition: 0.5s all;
   
 }
-.item_link{
-   
-    /* margin-right: 30px; */
-   
+
+
+.item_button {
+    opacity: 0;
+    transform: translateY(0%);
+    transition: opacity 0.5s, transform 0.5s;
 }
-.item:hover .item_button{
-    display: block;
-    
+
+.item:hover .item_button {
+    opacity: 1;
+    transform: translateY(-50%);
 }
 .item_button{
     position: absolute;
-    left: 50%;
-    display:  none;
+    left: 30%;
+   
     top:40%;
     /* background-color: black; */
-    transform: translate(-50%,-50%);
     transition: all 0.5s ease 0s;
-    /* opacity: 0.5; */
+ 
     z-index: 1;
     cursor: pointer;
     padding:12px;
