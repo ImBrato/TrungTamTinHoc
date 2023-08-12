@@ -7,7 +7,7 @@
 :root{
     --height: 66px;
     --buttonColor: #f05123;
-    --font-ui: 'Segoe UI';
+    --font-ui: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     --primary-color: #f05123;
     --black-color: #000;
     --white-color: #fff;
@@ -81,7 +81,7 @@ ul{
 .header_action{
     margin-right: 30px;
 }
-.header_action__loginBtn{
+.header_action__loginBtn, .header_action__logoutBtn{
     background-color: var(--buttonColor);
     border-radius: 999px;
     color: #fff;

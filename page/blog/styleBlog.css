@@ -299,3 +299,35 @@ margin-top:40px;
     from {bottom: 30px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
   }
+  .option_post{
+    display: none;
+    position: absolute;
+    z-index:99;
+    right: -18%;
+    background-color: #fff;
+    box-shadow: -2px 4px 10px #cbc8c8;
+    font-size: 18px;
+    width: 280px;
+  
+    border-radius: 6px;
+  }
+  .option_post_item{
+    display: flex;
+    align-items: center;
+    padding:15px;
+    transition: 0.5s all;
+    cursor: pointer;
+  }
+  .option_post_item:hover{
+    background-color: #d8d8d8;
+  }
+  .option_post_item >span{
+    margin-right: 10px;
+   
+  }
+  .postItem_optionBtn{
+    position: relative;
+  }
+  .option_post.active{
+    display: block;
+  }

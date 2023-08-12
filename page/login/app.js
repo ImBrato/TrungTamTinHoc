@@ -12,12 +12,16 @@ console.log(signIn);
 const app = {
   user: [
     {
-      name: "0941720502",
+      userName: "Đức Hoàng",
+      phone: "0941720502",
       password: "1",
+      avt: "https://scontent.fsgn16-1.fna.fbcdn.net/v/t39.30808-6/327320728_589569392995097_3866947794349105941_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=7a1959&_nc_ohc=KnnUdGBkES8AX_d7uFJ&_nc_ht=scontent.fsgn16-1.fna&oh=00_AfAMiuW2O_S89MdezRfMdyso-YiMiol0hcuM25dBbADGhw&oe=64D7FDF9"
     },
     {
-      name: "1",
+      userName: "Hiếu",
+      phone: "1",
       password: "1",
+      avt: "https://scontent.fsgn16-1.fna.fbcdn.net/v/t1.6435-9/58978526_10158354585751729_7411073224387067904_n.png?_nc_cat=1&ccb=1-7&_nc_sid=be3454&_nc_ohc=BR6Orkc_J2QAX95dser&_nc_ht=scontent.fsgn16-1.fna&oh=00_AfAoMvkgC41e_dCAkI-jA9698kpvqIV8Ri1BZCidaKHq7g&oe=64FB0AD5"
     },
   ],
   handleEvent() {
@@ -37,14 +41,21 @@ const app = {
       const passwordInput = $(".passwordInput");
       app.user.map((user) => {
         if (
-          user.name === phoneInput.value &&
+          user.phone === phoneInput.value &&
           user.password === passwordInput.value
         ) {
           foundValidUser = true;
-          localStorage.setItem("username", phoneInput.value);
-          localStorage.setItem("password", passwordInput.value);
+          localStorage.setItem("username", user.userName);
+          localStorage.setItem("password", user.password);
+          localStorage.setItem("avt", user.avt);
         } else {
-          foundValidUser = false;
+          if(foundValidUser) {
+
+          }
+          else {
+            foundValidUser = false;
+          }
+          console.log("falid")
         }
       });
       if (foundValidUser) {
