@@ -31,9 +31,9 @@ const app = {
   ],
   newCourse: [
     {
-      title: "Thiết kế giao diện website",
-      img: "/assets/img/anh2.png",
-      member: 123.129,
+      title: "Lập trình viên .Net",
+      img: "/assets/img/anh13.png",
+      member: 89.129,
     },
     {
       title: "Quản trị hệ thống mạng",

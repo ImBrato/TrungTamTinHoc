@@ -48,6 +48,51 @@ const app = {
       ],
       img: "https://files.fullstack.edu.vn/f8-prod/blog_posts/7924/64a2487459fe5.jpg",
     },
+    {
+      avt: "https://files.fullstack.edu.vn/f8-prod/user_photos/315518/643b789615dd1.jpg",
+      name: "GZw",
+      title: "Học viên Funix lạc đường tới Codeheroes",
+      context:
+        "Mình đã tham gia khóa học lập trình 6 tháng ở funix và cũng có nhiều lý do khác dẫn đến quá hạn quá học và cũng đã hoàn thành 4...",
+      tags: [
+        {
+          title: "Reactjs",
+          time: "3 tháng trước",
+          duration: "1 phút đọc",
+        },
+      ],
+      img: "https://files.fullstack.edu.vn/f8-prod/blog_posts/7924/64a2487459fe5.jpg",
+    },
+    {
+      avt: "https://files.fullstack.edu.vn/f8-prod/user_photos/315518/643b789615dd1.jpg",
+      name: "GZw",
+      title: "Học viên Funix lạc đường tới Codeheroes",
+      context:
+        "Mình đã tham gia khóa học lập trình 6 tháng ở funix và cũng có nhiều lý do khác dẫn đến quá hạn quá học và cũng đã hoàn thành 4...",
+      tags: [
+        {
+          title: "Reactjs",
+          time: "3 tháng trước",
+          duration: "1 phút đọc",
+        },
+      ],
+      img: "https://files.fullstack.edu.vn/f8-prod/blog_posts/7924/64a2487459fe5.jpg",
+    },
+    {
+      avt: "https://files.fullstack.edu.vn/f8-prod/user_photos/315518/643b789615dd1.jpg",
+      name: "GZw",
+      title: "Học viên Funix lạc đường tới Codeheroes",
+      context:
+        "Mình đã tham gia khóa học lập trình 6 tháng ở funix và cũng có nhiều lý do khác dẫn đến quá hạn quá học và cũng đã hoàn thành 4...",
+      tags: [
+        {
+          title: "Reactjs",
+          time: "3 tháng trước",
+          duration: "1 phút đọc",
+        },
+      ],
+      img: "https://files.fullstack.edu.vn/f8-prod/blog_posts/7924/64a2487459fe5.jpg",
+    },
   ],
   handleEvent() {
     createBtn.onclick = () => {
