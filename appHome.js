@@ -10,66 +10,66 @@ const app = {
   popularCourse: [
     {
       title: "Thiết kế giao diện website",
-      img: "/assets/img/anh2.png",
+      img: "./assets/img/anh2.png",
       member: 123.129,
     },
     {
       title: "Quản trị hệ thống mạng",
-      img: "/assets/img/anh3.png",
+      img: "./assets/img/anh3.png",
       member: 92.312,
     },
     {
       title: "Lập trình Android",
-      img: "/assets/img/anh4.png",
+      img: "./assets/img/anh4.png",
       member: 97.125,
     },
     {
       title: "Lập trình PHP",
-      img: "/assets/img/anh5.png",
+      img: "./assets/img/anh5.png",
       member: 34.542,
     },
   ],
   newCourse: [
     {
       title: "Lập trình viên .Net",
-      img: "/assets/img/anh13.png",
+      img: "./assets/img/anh13.png",
       member: 89.129,
     },
     {
       title: "Quản trị hệ thống mạng",
-      img: "/assets/img/anh3.png",
+      img: "./assets/img/anh3.png",
       member: 92.312,
     },
     {
       title: "Lập trình Android",
-      img: "/assets/img/anh4.png",
+      img: "./assets/img/anh4.png",
       member: 97.125,
     },
     {
       title: "Lập trình PHP",
-      img: "/assets/img/anh5.png",
+      img: "./assets/img/anh5.png",
       member: 34.542,
     },
   ],
   basicCourse: [
     {
       title: "Thiết kế giao diện website",
-      img: "/assets/img/anh2.png",
+      img: "./assets/img/anh2.png",
       member: 123.129,
     },
     {
       title: "Quản trị hệ thống mạng",
-      img: "/assets/img/anh3.png",
+      img: "./assets/img/anh3.png",
       member: 92.312,
     },
     {
       title: "Lập trình Android",
-      img: "/assets/img/anh4.png",
+      img: "./assets/img/anh4.png",
       member: 97.125,
     },
     {
       title: "Lập trình PHP",
-      img: "/assets/img/anh5.png",
+      img: "./assets/img/anh5.png",
       member: 34.542,
     },
   ],
