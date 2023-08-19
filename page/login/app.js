@@ -60,7 +60,7 @@ const app = {
       });
       if (foundValidUser) {
         const currentURL = window.location.href;
-        const newURL = currentURL.replace("/login/", "/home/");
+        const newURL = currentURL.replace("/page/login/", "/")
         window.history.pushState({}, "", newURL);
 
         window.location.reload();
