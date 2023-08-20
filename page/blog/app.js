@@ -23,7 +23,7 @@ const app = {
     {
       avt: "https://files.fullstack.edu.vn/f8-prod/user_photos/323800/6464902b20c91.jpg",
       name: "Alan king",
-      title: "Cảm thấy khó khăn khi chuyển sang học một ngôn ngữ mới 1",
+      title: "Cảm thấy khó khăn khi chuyển sang học một ngôn ngữ mới",
       context:
         "Tôi làm chuyên môn về phân tích dữ liệu, chủ yếu là dùng phần mềm chuyên môn sâu và dùng rất nhiều SQL db, python. Hai món đó cũng...",
       tags: [
@@ -33,112 +33,127 @@ const app = {
           duration: "1 phút đọc",
         },
       ],
-      img: "https://files.fullstack.edu.vn/f8-prod/blog_posts/7256/64448752c63c4.jpg",
+      img: "/assets/img/1.png"
     },
     {
-      avt: "https://files.fullstack.edu.vn/f8-prod/user_photos/323800/6464902b20c91.jpg",
-      name: "Alan king",
-      title: "Cảm thấy khó khăn khi chuyển sang học một ngôn ngữ mới 2",
+      avt: "https://files.fullstack.edu.vn/f8-prod/user_avatars/345914/64cca745cf311.jpg",
+      name: "Dev Ngáo",
+      title: "Cách chỉnh theme Oh-my-posh cho Powershell",
       context:
-        "Tôi làm chuyên môn về phân tích dữ liệu, chủ yếu là dùng phần mềm chuyên môn sâu và dùng rất nhiều SQL db, python. Hai món đó cũng...",
+        "Hello ae mọi người nhé, mọi người (đặc biệt là lập trình viên Software) chắc hẳn đã nghe tới Powershell, nhưng bù lại cái màn hình...",
+      tags: [
+        {
+          title: "Terminal",
+          time: "11 ngày trước",
+          duration: "2 phút đọc",
+        },
+      ],
+      img: "https://learn.microsoft.com/en-us/windows/terminal/images/custom-prompt.png",
+    },
+    {
+      avt: "https://fullstack.edu.vn/static/media/fallback-avatar.155cdb2376c5d99ea151.jpg",
+      name: "Dev Quèn",
+      title: 'Một số "cẩm nang" hay khi làm việc với HTML/CSS😂',
+      context:
+        "Bài viết này đơn giản là nơi để mình lưu lại những kinh nghiệm mình đã làm việc với HTML/CSS cũng như chia sẻ phần nào cho bạn...",
       tags: [
         {
           title: "Reactjs",
-          time: "2 tháng trước",
+          time: "4 tháng trước",
           duration: "1 phút đọc",
         },
       ],
-      img: "https://files.fullstack.edu.vn/f8-prod/blog_posts/7256/64448752c63c4.jpg",
+      img: "/assets/img/2.png",
     },
     {
-      avt: "https://files.fullstack.edu.vn/f8-prod/user_photos/323800/6464902b20c91.jpg",
-      name: "Alan king",
-      title: "Cảm thấy khó khăn khi chuyển sang học một ngôn ngữ mới 3 ",
-      context:
-        "Tôi làm chuyên môn về phân tích dữ liệu, chủ yếu là dùng phần mềm chuyên môn sâu và dùng rất nhiều SQL db, python. Hai món đó cũng...",
-      tags: [
-        {
-          title: "Reactjs",
-          time: "2 tháng trước",
-          duration: "1 phút đọc",
-        },
-      ],
-      img: "https://files.fullstack.edu.vn/f8-prod/blog_posts/7256/64448752c63c4.jpg",
-    },
-    {
-      avt: "https://files.fullstack.edu.vn/f8-prod/user_photos/323800/6464902b20c91.jpg",
-      name: "Alan king",
-      title: "Cảm thấy khó khăn khi chuyển sang học một ngôn ngữ mới 4 " ,
-      context:
-        "Tôi làm chuyên môn về phân tích dữ liệu, chủ yếu là dùng phần mềm chuyên môn sâu và dùng rất nhiều SQL db, python. Hai món đó cũng...",
-      tags: [
-        {
-          title: "Reactjs",
-          time: "2 tháng trước",
-          duration: "1 phút đọc",
-        },
-      ],
-      img: "https://files.fullstack.edu.vn/f8-prod/blog_posts/7256/64448752c63c4.jpg",
-    },
-    {
-      avt: "https://files.fullstack.edu.vn/f8-prod/user_photos/315518/643b789615dd1.jpg",
+      avt: "https://files.fullstack.edu.vn/f8-prod/user_avatars/164944/6442473f625f6.jpg",
       name: "GZw",
-      title: "Học viên Funix lạc đường tới Codeheroes 123 ",
+      title: "Đánh giá CODEHEROES với một số trường",
       context:
-        "Mình đã tham gia khóa học lập trình 6 tháng ở funix và cũng có nhiều lý do khác dẫn đến quá hạn quá học và cũng đã hoàn thành 4...",
+        "Hí anh em! Vào vấn đề luôn, trong thời gian mình có quá nhiều thời gian rỗi nên mình đã bỏ 1 ít thời gian và tiền đi kiểm chứng và...",
       tags: [
         {
-          title: "Reactjs",
-          time: "3 tháng trước",
-          duration: "1 phút đọc",
+          title: "IT",
+          time: "4 tháng trước",
+          duration: "2 phút đọc",
         },
       ],
-      img: "https://files.fullstack.edu.vn/f8-prod/blog_posts/7924/64a2487459fe5.jpg",
+      img: "/assets/img/8.png",
     },
     {
-      avt: "https://files.fullstack.edu.vn/f8-prod/user_photos/315518/643b789615dd1.jpg",
-      name: "GZw",
-      title: "Học viên Funix lạc đường tới Codeheroes h9",
+      avt: "https://files.fullstack.edu.vn/f8-prod/user_photos/184722/62383632b8e58.jpg",
+      name: "Minh Trịnh",
+      title: "Learn JavaScript while Playing Games — Gamify Your Learning",
       context:
-        "Mình đã tham gia khóa học lập trình 6 tháng ở funix và cũng có nhiều lý do khác dẫn đến quá hạn quá học và cũng đã hoàn thành 4...",
+        "Trong bài viết này, tôi muốn giới thiệu các trang web khác nhau mà bạn có thể sử dụng để học JavaScript khi chơi trò chơi. Phương...",
       tags: [
         {
-          title: "Reactjs",
-          time: "3 tháng trước",
-          duration: "1 phút đọc",
+          title: "Python",
+          time: "5 tháng trước",
+          duration: "8 phút đọc",
         },
       ],
-      img: "https://files.fullstack.edu.vn/f8-prod/blog_posts/7924/64a2487459fe5.jpg",
+      img: "/assets/img/3.png",
     },
     {
-      avt: "https://files.fullstack.edu.vn/f8-prod/user_photos/315518/643b789615dd1.jpg",
-      name: "GZw",
-      title: "Học viên Funix lạc đường tới Codeheroes 66",
+      avt: "https://files.fullstack.edu.vn/f8-prod/user_avatars/256991/63b63dc6657a1.jpg",
+      name: "Vịt",
+      title: "Ngành gì đang hot hiện nay? Top ngành nghề dự báo trở thành xu thế ",
       context:
-        "Mình đã tham gia khóa học lập trình 6 tháng ở funix và cũng có nhiều lý do khác dẫn đến quá hạn quá học và cũng đã hoàn thành 4...",
+        "Nếu bạn đang phân vân trong việc chọn ngành, chuyển ngành thì có thể tham khảo bài viết này để biết ngành gì đang hot hiện nay và...",
       tags: [
         {
-          title: "Reactjs",
-          time: "3 tháng trước",
-          duration: "1 phút đọc",
+          title: "IT",
+          time: "6 tháng trước",
+          duration: "12 phút đọc",
         },
       ],
-      img: "https://files.fullstack.edu.vn/f8-prod/blog_posts/7924/64a2487459fe5.jpg",
+      img: "/assets/img/4.png",
     },
     {
-      avt: "https://files.fullstack.edu.vn/f8-prod/user_photos/315518/643b789615dd1.jpg",
-      name: "GZw",
-      title: "Học viên Funix lạc đường tới Codeheroes 8",
+      avt: "https://files.fullstack.edu.vn/f8-prod/user_avatars/256991/63b63dc6657a1.jpg",
+      name: "Vịt",
+      title: "Lương lập trình website cao hay thấp? Cơ hội nghề nghiệp ra sao?",
       context:
-        "Mình đã tham gia khóa học lập trình 6 tháng ở funix và cũng có nhiều lý do khác dẫn đến quá hạn quá học và cũng đã hoàn thành 4...",
+        "Trong những năm gần đây, nghề IT đã trở thành một nghề siêu hot với mức thu nhập được cho là “cực khủng”. Vậy với ngách lập...",
       tags: [
         {
-          title: "Reactjs",
-          time: "3 tháng trước",
-          duration: "1 phút đọc",
+          title: "Lập trình viên",
+          time: "6 tháng trước",
+          duration: "6 phút đọc",
         },
       ],
-      img: "https://files.fullstack.edu.vn/f8-prod/blog_posts/7924/64a2487459fe5.jpg",
+      img: "/assets/img/5.png",
+    },
+    {
+      avt: "https://files.fullstack.edu.vn/f8-prod/user_avatars/6061/63f0e31d4b28d.jpg",
+      name: "Nguyên Đinh",
+      title: "Deploy Spring Boot cùng SQL Server lên Azure",
+      context:
+        "Microsoft Azure là nền tảng tính toán đám mây được xây dựng bởi Microsoft dành cho xây dựng, kiểm thử, triển khai và quản lý các...",
+      tags: [
+        {
+          title: "Java",
+          time: "5 tháng trước",
+          duration: "4 phút đọc",
+        },
+      ],
+      img: "/assets/img/7.png",
+    },
+    {
+      avt: "https://files.fullstack.edu.vn/f8-prod/user_avatars/256991/63b63dc6657a1.jpg",
+      name: "Vịt",
+      title: "Fullstack là gì? Cần kỹ năng gì để trở thành fullstack developer?",
+      context:
+        "Chắc hẳn hầu hết các bạn trong giới lập trình đều đã ít nhất một lần nghe đến từ “fullstack”. Tuy nhiên vẫn còn nhiều người hiểu...",
+      tags: [
+        {
+          title: "IT",
+          time: "6 tháng trước",
+          duration: "8 phút đọc",
+        },
+      ],
+      img: "/assets/img/6.png",
     },
   ],
   handleEvent() {
