@@ -38,7 +38,7 @@ const app = {
   popularCourse: [
     {
       title: "Thiết kế giao diện website",
-      img: "/assets/img/anh2.png",
+      img: "./assets/img/anh2.png",
       member: 315.129,
     },
     {

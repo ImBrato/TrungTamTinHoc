@@ -33,7 +33,7 @@ const app = {
           duration: "1 phút đọc",
         },
       ],
-      img: "/assets/img/1.png"
+      img: "../../assets/img/1.png"
     },
     {
       avt: "https://files.fullstack.edu.vn/f8-prod/user_avatars/345914/64cca745cf311.jpg",
@@ -93,7 +93,7 @@ const app = {
           duration: "8 phút đọc",
         },
       ],
-      img: "/assets/img/3.png",
+      img: "../../assets/img/3.png",
     },
     {
       avt: "https://files.fullstack.edu.vn/f8-prod/user_avatars/256991/63b63dc6657a1.jpg",
