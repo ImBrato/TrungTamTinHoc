@@ -7,11 +7,24 @@ const loginBtn = $(".header_action__loginBtn");
 const logoutBtn = $(".header_action__logoutBtn");
 const btn_menu = $('.btn__menu')
 const moblieMenu__wrapper = $('.moblieMenu__wrapper')
+const slides = $$('.slide')
 
 
 let mybutton = $("#myBtn");
+var counter = 0;
 
+slides.forEach((slide, index) => {
+    slide.style.left = `${index*100}%`;
+});
 
+const slideImg = (c) => {
+  slides.forEach(slide => slide.style.transform = `translateX(-$(c*100)%`)}
+
+setInterval(() =>{
+  counter++;
+  console.log();
+  slideImg(counter);
+}, 1000)
 
 window.onscroll = function() {scrollFunction()};
 
