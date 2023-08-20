@@ -5,7 +5,11 @@ const createBtn = $(".createButton");
 const addNewCourse = $(".add_newBlog__link");
 const loginBtn = $(".header_action__loginBtn");
 const logoutBtn = $(".header_action__logoutBtn");
-let mybutton = document.getElementById("myBtn");
+const btn_menu = $('.btn__menu')
+const moblieMenu__wrapper = $('.moblieMenu__wrapper')
+
+
+let mybutton = $("#myBtn");
 
 
 
@@ -112,6 +116,16 @@ const app = {
       console.log("success");
       window.location.reload();
     };
+    btn_menu.onclick = () => {
+      moblieMenu__wrapper.style.display = "block";
+    }
+    document.onclick = (e) => {
+      
+      console.log(e.target)
+      if (e.target === moblieMenu__wrapper) {
+        moblieMenu__wrapper.style.display = "none";
+      }
+    };
   },
   render() {
     const storedUsername = localStorage.getItem("username");
@@ -121,6 +135,7 @@ const app = {
       console.log("Tên người dùng:", storedUsername);
       console.log("Mật khẩu:", storedPassword);
       loginBtn.innerHTML = "Chào: " + storedUsername
+      logoutBtn.style.display = 'inline-block';
     } else {
       console.log("Thông tin người dùng và mật khẩu chưa được lưu trữ.");
     }

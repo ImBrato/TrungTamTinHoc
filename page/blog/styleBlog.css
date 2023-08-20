@@ -360,3 +360,7 @@ margin-top:40px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
   }
+  .blog__right{
+    display: flex;
+    justify-content: center;
+  }

@@ -13,11 +13,10 @@ const logoutBtn = $(".header_action__logoutBtn");
 const postItem_optionBtn = $(".postItem_optionBtn");
 const option_post = $(".option_post");
 const module__left = $(".index_module-col__left");
-
+const moblieMenu__wrapper = $(".moblieMenu__wrapper")
+const btn_menu = $(".btn__menu");
 const parent_item = $("index_module-col__left");
-
-// Lấy tất cả các thẻ <a> trong phân trang
-const paginationLinks = document.querySelectorAll(".pagination a");
+const paginationLinks = $$(".pagination a");
 
 const app = {
   blogs: [
@@ -160,6 +159,16 @@ const app = {
         console.log("success");
         window.location.reload();
       }),
+      btn_menu.onclick = () => {
+        moblieMenu__wrapper.style.display = "block";
+      }
+      document.onclick = (e) => {
+        
+        console.log(e.target)
+        if (e.target === moblieMenu__wrapper) {
+          moblieMenu__wrapper.style.display = "none";
+        }
+      };
       (submitNewBlog.onclick = () => {
         console.log(titleInput.value);
         const htmls = `
@@ -182,7 +191,7 @@ const app = {
                             <a href="/@ttnguyen" style=""><span>  ${
                               localStorage.getItem("username") != null
                                 ? localStorage.getItem("username")
-                                : "user"
+                                : ""
                             }</span></a></div>
                         <div class="postItem_actions">
                             <div class="bookmark_toggleBtn PostItem_optionBtn">
@@ -252,6 +261,8 @@ const app = {
       console.log("Tên người dùng:", storedUsername);
       console.log("Mật khẩu:", storedPassword);
       loginBtn.innerHTML = "Chào: " + storedUsername;
+      console.log("Thông tin ng")
+      logoutBtn.style.display = "inline-block";
     } else {
       console.log("Thông tin người dùng và mật khẩu chưa được lưu trữ.");
     }
@@ -328,13 +339,12 @@ const app = {
             `;
     });
     $(".blog__left").innerHTML += htmls.join("");
-    localStorage.length > 0
-      ? ($(".blog__left").innerHTML += localStorage.getItem("newPosts"))
-      : "";
+    localStorage.getItem("newPosts") !=null
+      ? ($(".blog__left").innerHTML += localStorage.getItem("newPosts")): "";
 
     paginationLinks.forEach((link, index) => {
       link.addEventListener("click", function (event) {
-        event.preventDefault(); // Ngăn chặn hành vi mặc định của liên kết
+        event.preventDefault(); 
         paginationLinks.forEach((link) => {
           link.classList.remove("active");
         });
@@ -344,7 +354,7 @@ const app = {
       });
     });
     function showPosts(index) {
-      const postsPerPage = 3; // Số bài viết hiển thị trên mỗi trang
+      const postsPerPage = 3; 
       const startIndex = index * postsPerPage;
       const endIndex = startIndex + postsPerPage;
       
