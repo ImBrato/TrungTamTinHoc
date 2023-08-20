@@ -63,7 +63,7 @@ const app = {
           duration: "1 phút đọc",
         },
       ],
-      img: "/assets/img/2.png",
+      img: "../../assets/img/2.png",
     },
     {
       avt: "https://files.fullstack.edu.vn/f8-prod/user_avatars/164944/6442473f625f6.jpg",
@@ -78,7 +78,7 @@ const app = {
           duration: "2 phút đọc",
         },
       ],
-      img: "/assets/img/8.png",
+      img: "../../assets/img/8.png",
     },
     {
       avt: "https://files.fullstack.edu.vn/f8-prod/user_photos/184722/62383632b8e58.jpg",
@@ -108,7 +108,7 @@ const app = {
           duration: "12 phút đọc",
         },
       ],
-      img: "/assets/img/4.png",
+      img: "../../assets/img/4.png",
     },
     {
       avt: "https://files.fullstack.edu.vn/f8-prod/user_avatars/256991/63b63dc6657a1.jpg",
@@ -123,7 +123,7 @@ const app = {
           duration: "6 phút đọc",
         },
       ],
-      img: "/assets/img/5.png",
+      img: "../../assets/img/5.png",
     },
     {
       avt: "https://files.fullstack.edu.vn/f8-prod/user_avatars/6061/63f0e31d4b28d.jpg",
@@ -138,7 +138,7 @@ const app = {
           duration: "4 phút đọc",
         },
       ],
-      img: "/assets/img/7.png",
+      img: "../../assets/img/7.png",
     },
     {
       avt: "https://files.fullstack.edu.vn/f8-prod/user_avatars/256991/63b63dc6657a1.jpg",
@@ -153,7 +153,7 @@ const app = {
           duration: "8 phút đọc",
         },
       ],
-      img: "/assets/img/6.png",
+      img: "../../assets/img/6.png",
     },
   ],
   handleEvent() {
