@@ -5,6 +5,30 @@ const createBtn = $(".createButton");
 const addNewCourse = $(".add_newBlog__link");
 const loginBtn = $(".header_action__loginBtn");
 const logoutBtn = $(".header_action__logoutBtn");
+let mybutton = document.getElementById("myBtn");
+
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Sử dụng hiệu ứng mượt mà
+    });
+}
+
+
+
 
 const app = {
   popularCourse: [
@@ -37,17 +61,17 @@ const app = {
     },
     {
       title: "Quản trị hệ thống mạng",
-      img: "./assets/img/anh3.png",
+      img: "./assets/img/anh4.png",
       member: 92.312,
     },
     {
       title: "Lập trình Android",
-      img: "./assets/img/anh4.png",
+      img: "./assets/img/anh7.png",
       member: 97.125,
     },
     {
       title: "Lập trình PHP",
-      img: "./assets/img/anh5.png",
+      img: "./assets/img/anh8.png",
       member: 34.542,
     },
   ],
@@ -59,17 +83,17 @@ const app = {
     },
     {
       title: "Quản trị hệ thống mạng",
-      img: "./assets/img/anh3.png",
+      img: "./assets/img/anh13.png",
       member: 92.312,
     },
     {
       title: "Lập trình Android",
-      img: "./assets/img/anh4.png",
+      img: "./assets/img/anh15.png",
       member: 97.125,
     },
     {
       title: "Lập trình PHP",
-      img: "./assets/img/anh5.png",
+      img: "./assets/img/anh12.png",
       member: 34.542,
     },
   ],
