@@ -5,28 +5,34 @@ const createBtn = $(".createButton");
 const addNewCourse = $(".add_newBlog__link");
 const loginBtn = $(".header_action__loginBtn");
 const logoutBtn = $(".header_action__logoutBtn");
-const btn_menu = $('.btn__menu')
-const moblieMenu__wrapper = $('.moblieMenu__wrapper')
-const slides = $$('.slide')
-
+const btn_menu = $(".btn__menu");
+const moblieMenu__wrapper = $(".moblieMenu__wrapper");
+const slides = $$(".slide");
 
 let mybutton = $("#myBtn");
 var counter = 0;
 
 slides.forEach((slide, index) => {
-    slide.style.left = `${index*100}%`;
+  slide.style.left = `${index * 100}%`;
 });
-
-const slideImg = (c) => {
-  slides.forEach(slide => slide.style.transform = `translateX(-$(c*100)%`)}
-
-setInterval(() =>{
-  counter++;
-  console.log();
+const goPrev = () => {
+  console.log(123);
+  counter--
   slideImg(counter);
-}, 1000)
+};
+const goNext = () => {
+  counter++;
+  slideImg(counter);
+};
+const slideImg = (counter) => { // Truyền counter vào hàm slideImg
+  slides.forEach((slide) => {
+    slide.style.transform = `translateX(-${counter * 100}%)`; // Sửa cú pháp lỗi ở đây
+  });
+};
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () {
+  scrollFunction();
+};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -38,14 +44,11 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth' // Sử dụng hiệu ứng mượt mà
-    });
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth", // Sử dụng hiệu ứng mượt mà
+  });
 }
-
-
-
 
 const app = {
   popularCourse: [
@@ -124,17 +127,16 @@ const app = {
         addNewCourse.style.display === "flex" ? "none" : "flex";
     };
     logoutBtn.onclick = () => {
-      localStorage.removeItem('username');
-      localStorage.removeItem('password');
+      localStorage.removeItem("username");
+      localStorage.removeItem("password");
       console.log("success");
       window.location.reload();
     };
     btn_menu.onclick = () => {
       moblieMenu__wrapper.style.display = "block";
-    }
+    };
     document.onclick = (e) => {
-      
-      console.log(e.target)
+      console.log(e.target);
       if (e.target === moblieMenu__wrapper) {
         moblieMenu__wrapper.style.display = "none";
       }
@@ -147,8 +149,8 @@ const app = {
       console.log("Thông tin người dùng và mật khẩu đã được lưu trữ.");
       console.log("Tên người dùng:", storedUsername);
       console.log("Mật khẩu:", storedPassword);
-      loginBtn.innerHTML = "Chào: " + storedUsername
-      logoutBtn.style.display = 'inline-block';
+      loginBtn.innerHTML = "Chào: " + storedUsername;
+      logoutBtn.style.display = "inline-block";
     } else {
       console.log("Thông tin người dùng và mật khẩu chưa được lưu trữ.");
     }
