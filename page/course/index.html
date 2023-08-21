@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tin học văn học</title>
+    <link rel="icon" href="../../assets/img/logo.png">
+    <!-- style chung -->
+    <link rel="stylesheet" href="../../assets/css/style.css">
+
+    <link rel="stylesheet" href="./course.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+
+    <link rel="stylesheet" href="../../reponsiveHome.css">
+</head>
+
+<body>
+    <div class="app_header d-flex" id="header">
+        <div class="header_logo d-flex-j">
+            <div class="btn__menu">
+                <span class="material-symbols-outlined">
+                    menu
+                </span>
+            </div>
+            <div class="btn-logo__menu">
+                <a href="../../index.html"><img src="../../assets/img/logo.png" width="40px" alt="Codeheroes"></a>
+                <h4 class="header_logo__heading">Nơi học tin học hàng đầu Việt Nam</h4>
+            </div>
+        </div>
+
+        <div class="searchInput">
+            <input type="<input class=" search_input__" spellcheck="false"
+                placeholder="Tìm kiếm khóa học, bài viết, video, ..." value="">
+            <span class="material-symbols-outlined">
+                search
+            </span>
+        </div>
+
+
+        <div class="header_action">
+            <a href="../login/index.html" class="header_action__loginBtn">Đăng nhập</a>
+            <span class="header_action__logoutBtn">Đăng xuất</span>
+        </div>
+    </div>
+
+
+    <div class="app_body d-flex">
+        <div class="app_sidebarWrap d-flex">
+
+            <div class="createButton">
+                <span class=" createBtn material-symbols-outlined">
+                    add_circle
+                </span>
+            </div>
+            <ul class="sidebar_list">
+                <li>
+                    <a href="../../index.html">
+
+                        <span class="material-symbols-outlined">
+                            home
+                        </span>
+                        <span class="sidebar_icon__sub">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="../road/index.html">
+                        <span class="material-symbols-outlined">
+                            stylus_laser_pointer
+                        </span>
+                        <spa class="sidebar_icon__sub">Lộ trình</spa>
+                    </a>
+                </li>
+                <li>
+                    <a href="../learn/index.html">
+                        <span class="material-symbols-outlined">
+                            lightbulb
+                        </span>
+                        <spa class="sidebar_icon__sub">Học</spa>
+                    </a>
+                </li>
+                <li>
+                    <a href="../blog/index.html" onclick="resetURL()">
+                        <span class="material-symbols-outlined">
+                            breaking_news
+                        </span>
+                        <span class="sidebar_icon__sub">Blog</span>
+                    </a>
+                </li>
+            </ul>
+
+
+        </div>
+        <div class="app_module">
+            <div class="index_module-row">
+                <div class="index_module-row__left">
+                    <h2 class="course_name">
+                        Kiến Thức Nhập Môn IT
+                    </h2>
+                    <div class="course_details">
+                        Để có cái nhìn tổng quan về ngành IT - Lập trình web các bạn nên xem các videos tại khóa này
+                        trước nhé.
+                    </div>
+                    <div class="course_topic__list">
+                        <h2 class="topic_heading">
+                            Bạn sẽ học được gì?
+                        </h2>
+                        <div class="topic_body">
+                            <div class="topic_body__wrapper">
+
+                            </div>
+                        </div>
+                        <ul class="course_detail_list">
+                            <li>
+                                <span>Các kiến thức cơ bản, nền móng của ngành IT</span></li>
+                            <li>
+                                <span>Các mô hình, kiến trúc cơ bản khi triển khai ứng dụng</span></li>
+                            <li>
+                                <span>Các khái niệm, thuật ngữ cốt lõi khi triển khai ứng dụng</span>
+                            </li>
+                            <li><span>Hiểu hơn về cách internet và máy vi tính hoạt động</span></li>
+                        </ul>
+                    </div>
+                    <div class="info_course">
+
+                    </div>
+                </div>
+                <div class="index_module-row__right">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="moblieMenu__wrapper">
+        <div class="moblieMenu__body">
+            <div class="moblieMenu__scroll">
+                <div class="moblieMenu__listWrap">
+                    <ul class="index-module__list">
+                        <li class="index-module_listItem">
+                            <a href="./page/login/index.html">
+
+                                <span class="material-symbols-outlined">
+                                    login
+                                </span>
+                                <span>Đăng nhập</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <ul class="index-module__list">
+                        <li class="index-module_listItem"><a href="./index.html">
+                                <span class="material-symbols-outlined">
+                                    home
+                                </span>
+                                <span>Trang chủ</span>
+                            </a></li>
+                        <li class="index-module_listItem"><a href="./page/road/index.html">
+                                <span class="material-symbols-outlined">
+                                    stylus_laser_pointer
+                                </span>
+                                <span>Lộ trình</span>
+                            </a></li>
+                        <li class="index-module_listItem"><a href="./page/learn/index.html">
+                                <span class="material-symbols-outlined">
+                                    lightbulb
+                                </span>
+                                <span>Khóa học</span>
+                            </a></li>
+                        <li class="index-module_listItem"><a href="./page/blog/index.html">
+                                <span class="material-symbols-outlined">
+                                    breaking_news
+                                </span>
+                                <span>Blog</span>
+                            </a></li>
+                    </ul>
+                    <ul class="index-module__list">
+                        <li class="index-module_listItem"><a href="./page/introduce/index.html">
+                                <span class="material-symbols-outlined">
+                                    info
+                                </span>
+                                <span>Giới thiệu</span>
+                            </a></li>
+                        <li class="index-module_listItem"><a href="">
+                                <span class="material-symbols-outlined">
+                                    groups_2
+                                </span>
+                                <span>Cơ hội việc làm</span>
+                            </a></li>
+                        <li class="index-module_listItem"><a href="">
+                                <span class="material-symbols-outlined">
+                                    settings
+                                </span>
+                                <span>Cài đặt</span>
+                            </a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

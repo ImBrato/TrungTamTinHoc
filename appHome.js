@@ -11,9 +11,9 @@ const slides = $$(".slide");
 
 let mybutton = $("#myBtn");
 var counter = 0;
-
+var flag = false;
 slides.forEach((slide, index) => {
-  slide.style.left = `${index * 100}%`;
+  slide.style.left = `${index *120}%`;
 });
 const goPrev = () => {
   console.log(123);
@@ -26,10 +26,28 @@ const goNext = () => {
 };
 const slideImg = (counter) => { // Truyền counter vào hàm slideImg
   slides.forEach((slide) => {
-    slide.style.transform = `translateX(-${counter * 100}%)`; // Sửa cú pháp lỗi ở đây
+    slide.style.transform = `translateX(-${counter * 120}%)`; 
   });
 };
-
+setInterval(() =>{
+  if(flag){
+    if(counter == 0){
+      flag = false;
+    }
+    else{
+      counter--;
+    }
+  }
+  else{
+    if(counter == 2){
+      flag = true;
+    }
+    else{
+      counter++;
+    }
+  }
+  slideImg(counter)
+} , 1500)
 window.onscroll = function () {
   scrollFunction();
 };
