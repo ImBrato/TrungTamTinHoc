@@ -65,7 +65,7 @@ const app = {
 
         window.location.reload();
       } else {
-        alert(11);
+        alert("Sai tên đăng nhập hoặc mật khẩu");
       }
     };
   },

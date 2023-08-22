@@ -176,7 +176,7 @@ const app = {
     const popularCourses = this.popularCourse.map((c) => {
       return `
             <section class="item">
-                <a class="item_link" title="HTML CSS Pro" target="_self" href="">
+                <a class="item_link" title="HTML CSS Pro" target="_self" href="./page/course/index.html">
                 <button class="item_button">Xem khóa học</button>
                 <div class="img_wrapper">
                 <img class="item_img"
@@ -199,7 +199,7 @@ const app = {
     const newCourse = this.newCourse.map((c) => {
       return `
             <section class="item">
-                <a class="item_link" title="HTML CSS Pro" target="_self" href="">
+                <a class="item_link" title="HTML CSS Pro" target="_self" href="./page/course/index.html">
                 <button class="item_button">Xem khóa học</button>
                 <div class="img_wrapper">
                 <img class="item_img"
@@ -221,7 +221,7 @@ const app = {
     const basicCourse = this.basicCourse.map((c) => {
       return `
             <section class="item">
-                <a class="item_link" title="HTML CSS Pro" target="_self" href="">
+                <a class="item_link" title="HTML CSS Pro" target="_self" href="./page/course/index.html">
                 <button class="item_button">Xem khóa học</button>
                 <div class="img_wrapper">
                 <img class="item_img"
