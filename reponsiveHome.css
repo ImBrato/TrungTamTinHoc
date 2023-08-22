@@ -59,12 +59,18 @@
       #player{
         
       }
+     .img__header{
+      display: none;
+     }
   }
 
  
   /* Moblie     */
 
   @media (max-width:739px){
+    .img__header{
+      display: none;
+    }
     iframe{
         width: 180px;
         height: 150px;
